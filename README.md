@@ -3,13 +3,13 @@
 This repository contains my solutions for the **Algorithms & Problem Solving Level 2 Course**.
 In this level, the focus shifts from basic syntax to **modular programming**, **mathematical algorithms**, and **building reusable libraries**.
 
-## 🚀 Key Technical Highlights
+## Key Technical Highlights
 Unlike Level 1, this repository implements a professional software architecture:
 * **Custom Library (`MyLib`):** All reusable logic is encapsulated in a dedicated header file (`MyLib.h`) and source file (`MyLib.cpp`).
 * **Modular Design:** Separation of declarations (`.h`) and implementations (`.cpp`).
 * **Pure Math Logic:** Solving complex digit manipulation problems using arithmetic operators (`%`, `/`) without relying on string conversions.
 
-## 📂 Problem Sets Overview
+## Problem Sets Overview
 
 ### 1. Set 1: Math Algorithms & Digit Manipulation (Problems 1-10)
 Deep dive into number theory, prime checks, and manipulating integers mathematically.
@@ -20,22 +20,22 @@ Deep dive into number theory, prime checks, and manipulating integers mathematic
 ### 2. Set 2: Patterns & Recursive Logic (Problems 11-20)
 *(Upcoming)* Focuses on printing complex patterns and advanced logical sequences.
 * **Key Problems:** Palindromes, Inverted Patterns, letter patterns.
-* **Status:** [🚧 In Progress...](./)
+* **Status:**
 
 ### 3. Set 3: Randomness & Keys Generation (Problems 21-30)
 *(Upcoming)* Simulating random behavior and generating secure keys.
 * **Key Problems:** Random Number Generator, Serial Key System, Array Filling.
-* **Status:** [⏳ Pending](./)
+* **Status:**
 
 ### 4. Set 4: Array Algorithms & Manipulation (Problems 31-40)
 *(Upcoming)* Advanced operations on arrays (shuffling, sorting, copying).
 * **Key Problems:** Array Shuffle, Copy distinct numbers, Palindrome Array.
-* **Status:** [⏳ Pending](./)
+* **Status:**
 
 ### 5. Set 5: Projects & Complex Systems (Problems 41-50)
 *(Upcoming)* The final capstone projects will combine all learned concepts.
 * **Key Problems:** MySqrt, MyCeil, Dynamic Array Operations.
-* **Status:** [⏳ Pending](./)
+* **Status:**
 
 ---
 ## 🛠️ Tech Stack
