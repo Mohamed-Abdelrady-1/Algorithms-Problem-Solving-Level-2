@@ -21,15 +21,22 @@ Optimized mathematical functions relying on pure arithmetic operations (no strin
 ## How to Use
 
 1. Copy the `MyLib` folder to your project directory.
-2. Include the header file in your code:
+2. Include the header and start using functions:
    ```cpp
+   #include <iostream>
    #include "MyLib.h"
+   
+   using namespace std;
    using namespace MyLib;
-   
-   // Call any function directly
-   
-   int x = Read_Positive_Number("Enter Number:");
-   if (Is_Prime_Number(x)) {
-    cout << "It's Prime!";
-   }
 
+   int main() {
+       // Example: Read a number and check if it's prime
+       int x = Read_Positive_Number("Enter a positive number:");
+       
+       if (Is_Prime_Number(x)) {
+           cout << x << " is a Prime number!" << endl;
+       } else {
+           cout << x << " is NOT Prime." << endl;
+       }
+       return 0;
+   }
