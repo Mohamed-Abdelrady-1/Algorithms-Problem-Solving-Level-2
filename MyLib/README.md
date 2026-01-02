@@ -25,9 +25,11 @@ Optimized mathematical functions relying on pure arithmetic operations (no strin
    ```cpp
    #include "MyLib.h"
    using namespace MyLib;
-3. Call any function directly:
-   ```cpp
-int x = Read_Positive_Number("Enter Number:");
-if (Is_Prime_Number(x)) {
+   
+   // Call any function directly
+   
+   int x = Read_Positive_Number("Enter Number:");
+   if (Is_Prime_Number(x)) {
     cout << "It's Prime!";
-}
+   }
+
