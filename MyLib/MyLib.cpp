@@ -1,5 +1,7 @@
-#include "MyLib.h"
-#include <iostream>
+# include "MyLib.h"
+# include <iostream>
+# include <cstdlib>
+
 
 using namespace std;
 
@@ -141,6 +143,47 @@ namespace MyLib
         return Reverse;
     }
 
+    // Checks if a number is a Palindrome (reads the same forwards and backwards).
+    // Logic: Compares the original number with its reverse.
+    // Example: 121 -> True, 1234 -> False.
+    // Dependency: Relies on Reverse_Number() function.
+    bool Is_Palindrome_Number(int Number)
+    {
+        return Number == Reverse_Number(Number);
+    }
+
+    // Generates a random number between 'From' and 'To' (Inclusive).
+    // Logic: rand() % Range_Length + Start_Point.
+    // Note: Don't forget to call srand((unsigned)time(NULL)) in main() once.
+    int Random_Number(int From, int To)
+    {
+        // Example: From=1, To=10
+        // rand() % (10 - 1 + 1) + 1  -> rand() % 10 + 1
+        return rand() % (To - From + 1) + From;
+    }
+
     #pragma endregion
 
+    // =============================================================
+    //                    Character_Utils
+    // =============================================================
+    #pragma region Character_Utils
+
+    // Generates a random character based on the selected type (Small, Capital, Special, Digit).
+    // Logic: Maps the enum type to specific ASCII ranges and returns a random char within that range.
+    // Ranges: Small (97-122), Capital (65-90), Special (33-47), Digit (48-57).
+    char Get_Random_Character(enCharType Type)
+    {
+        // Note: We use MyLib::Random_Number to generate a value within the ASCII range.
+        switch (Type)
+        {
+        case enCharType::Small_Letter: return char(MyLib::Random_Number(97, 122));
+        case enCharType::Capital:      return char(MyLib::Random_Number(65, 90));
+        case enCharType::Special:      return char(MyLib::Random_Number(33, 47));
+        case enCharType::Digit:        return char(MyLib::Random_Number(48, 57));
+        default: return ' ';
+        }
+    }
+
+    #pragma endregion
 }
