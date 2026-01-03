@@ -17,25 +17,26 @@ Deep dive into number theory, prime checks, and manipulating integers mathematic
 * **Concepts:** `MyLib Integration`, `Nested Loops`, `Modulo Operator`, `Optimization Techniques`.
 * **Status:** [✅ Completed](./01_Math_Algorithms_And_Digit_Manipulation)
 
-### 2. Set 2: Patterns & Recursive Logic (Problems 11-20)
-*(Upcoming)* Focuses on printing complex patterns and advanced logical sequences.
-* **Key Problems:** Palindromes, Inverted Patterns, letter patterns.
-* **Status:**
+### 2. Set 2: Patterns, Randomness & Security (Problems 11-20)
+Focuses on complex pattern generation, random number simulation, and basic security algorithms.
+* **Key Problems:** Palindromes, Inverted Patterns, Brute-Force Password Guessing, Text Encryption.
+* **Concepts:** `Nested Loops`, `Randomness (srand/rand)`, `String Manipulation`, `Security Logic`.
+* **Status:** [✅ Completed](./02_Patterns_Randomness_Security)
 
 ### 3. Set 3: Randomness & Keys Generation (Problems 21-30)
 *(Upcoming)* Simulating random behavior and generating secure keys.
 * **Key Problems:** Random Number Generator, Serial Key System, Array Filling.
-* **Status:**
+* **Status:**⏳ In Progress
 
 ### 4. Set 4: Array Algorithms & Manipulation (Problems 31-40)
 *(Upcoming)* Advanced operations on arrays (shuffling, sorting, copying).
 * **Key Problems:** Array Shuffle, Copy distinct numbers, Palindrome Array.
-* **Status:**
+* **Status:**⏳ In Progress
 
 ### 5. Set 5: Projects & Complex Systems (Problems 41-50)
 *(Upcoming)* The final capstone projects will combine all learned concepts.
 * **Key Problems:** MySqrt, MyCeil, Dynamic Array Operations.
-* **Status:**
+* **Status:**⏳ In Progress
 
 ---
 ## 🛠️ Tech Stack
