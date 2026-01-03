@@ -26,17 +26,17 @@ Focuses on complex pattern generation, random number simulation, and basic secur
 ### 3. Set 3: Randomness & Keys Generation (Problems 21-30)
 *(Upcoming)* Simulating random behavior and generating secure keys.
 * **Key Problems:** Random Number Generator, Serial Key System, Array Filling.
-* **Status:**⏳ In Progress
+* **Status:** ⏳ In Progress
 
 ### 4. Set 4: Array Algorithms & Manipulation (Problems 31-40)
 *(Upcoming)* Advanced operations on arrays (shuffling, sorting, copying).
 * **Key Problems:** Array Shuffle, Copy distinct numbers, Palindrome Array.
-* **Status:**⏳ In Progress
+* **Status:** ⏳ In Progress
 
 ### 5. Set 5: Projects & Complex Systems (Problems 41-50)
 *(Upcoming)* The final capstone projects will combine all learned concepts.
 * **Key Problems:** MySqrt, MyCeil, Dynamic Array Operations.
-* **Status:**⏳ In Progress
+* **Status:** ⏳ In Progress
 
 ---
 ## 🛠️ Tech Stack
