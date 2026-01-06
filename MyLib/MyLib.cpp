@@ -186,4 +186,39 @@ namespace MyLib
     }
 
     #pragma endregion
+
+    // =============================================================
+    //                      String_Utils
+    // =============================================================
+    #pragma region String_Utils
+
+    string Generate_Word(MyLib::enCharType Char_Type, short Segment_Length)
+    {
+        string Word = "";
+
+        for (int i = 1; i <= Segment_Length; i++)
+        {
+            Word += MyLib::Get_Random_Character(Char_Type);
+        }
+
+        return Word;
+    }
+
+    string Generate_Key(short Number_Of_Segments, short Segment_Length)
+    {
+        string Key = "";
+
+        for (int i = 1; i <= Number_Of_Segments; i++)
+        {
+            Key += Generate_Word(MyLib::enCharType::Capital, Segment_Length);
+            if (i != Number_Of_Segments)
+            {
+                Key += '-';
+            }
+        }
+
+        return Key;
+    }
+
+    #pragma endregion
 }

@@ -43,4 +43,18 @@ namespace MyLib
 	char Get_Random_Character(enCharType Type);
 
 	#pragma endregion
+
+	// =============================================================
+	//                      String_Utils
+	// =============================================================
+	#pragma region String_Utils
+
+	// Generates a random word of a specific length and character type.
+	std::string Generate_Word(enCharType CharType, short SegmentLength);
+
+	// Generates a generic key based on segments and segment length.
+	// Example: Generate_Key(3, 4) -> AAAA-BBBB-CCCC
+	std::string Generate_Key(short Number_Of_Segments, short SegmentLength);
+
+	#pragma endregion
 }

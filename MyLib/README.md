@@ -1,6 +1,6 @@
 # MyLib - Custom C++ Utility Library
 
-**MyLib** is a modular, reusable C++ library designed to simplify common programming tasks. It encapsulates logic for input validation, mathematical algorithms, character manipulation, and console management into a clean namespace.
+**MyLib** is a modular, reusable C++ library designed to simplify common programming tasks. It encapsulates logic for input validation, mathematical algorithms, string manipulation, and console management into a clean namespace.
 
 ## Features
 
@@ -28,7 +28,12 @@ Optimized mathematical functions relying on pure arithmetic operations:
   - `Special` (Symbols)
   - `Digit` (0-9)
 
-### 4. Console Screen Utils
+### 4. String & Key Generation Utils
+
+- **`Generate_Word(enCharType Type, short Length)`**: Generates a random word of specific length and type.
+- **`Generate_Key(short Number_Of_Segments, short Segment_Length)`**: Generates a formatted serial key (e.g., `XXXX-XXXX-XXXX`).
+
+### 5. Console Screen Utils
 
 - **`Clear_Screen()`**: Clears the console output (Cross-platform compatible logic).
 
@@ -48,11 +53,11 @@ Optimized mathematical functions relying on pure arithmetic operations:
 
     // Example 1: Math
     int x = Read_Positive_Number("Enter Number:");
-    if (Is_Palindrome_Number(x))
-        cout << x << " is a Palindrome!";
+    if (Is_Prime_Number(x))
+        cout << x << " is Prime!";
 
-    // Example 2: Random Char
-    cout << "Random Capital: " << Get_Random_Character(enCharType::Capital);
+    // Example 2: Generate Key
+    cout << "\nNew Key: " << Generate_Key(4, 4); // Output: AAAA-BBBB-CCCC-DDDD
 
     return 0;
    }
