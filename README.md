@@ -23,10 +23,11 @@ Focuses on complex pattern generation, random number simulation, and basic secur
 * **Concepts:** `Nested Loops`, `Randomness (srand/rand)`, `String Manipulation`, `Security Logic`.
 * **Status:** [✅ Completed](./02_Patterns_Randomness_Security)
 
-### 3. Set 3: Randomness & Keys Generation (Problems 21-30)
-*(Upcoming)* Simulating random behavior and generating secure keys.
-* **Key Problems:** Random Number Generator, Serial Key System, Array Filling.
-* **Status:** ⏳ In Progress
+### 3. Set 3: Array Algorithms & Keys Generation (Problems 21-30)
+Simulating random behavior, array filling, and generating secure keys.
+* **Key Problems:** Random Number Generator, Serial Key System, Array Filling, Prime Copying.
+* **Concepts:** `Arrays`, `Randomness`, `Linear Search`, `Aggregation`.
+* **Status:** [✅ Completed](./03_Array_Algorithms_And_Keys)
 
 ### 4. Set 4: Array Algorithms & Manipulation (Problems 31-40)
 *(Upcoming)* Advanced operations on arrays (shuffling, sorting, copying).
