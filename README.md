@@ -15,19 +15,19 @@ Unlike Level 1, this repository implements a professional software architecture:
 Deep dive into number theory, prime checks, and manipulating integers mathematically.
 * **Key Problems:** Multiplication Table, Prime/Perfect Numbers, Digit Frequency, Reversing Numbers.
 * **Concepts:** `MyLib Integration`, `Nested Loops`, `Modulo Operator`, `Optimization Techniques`.
-* **Status:** [![Completed](./01_Math_Algorithms_And_Digit_Manipulation)
+* **Status:** [✅ Completed](./01_Math_Algorithms_And_Digit_Manipulation)
 
 ### 2. Set 2: Patterns, Randomness & Security (Problems 11-20)
 Focuses on complex pattern generation, random number simulation, and basic security algorithms.
 * **Key Problems:** Palindromes, Inverted Patterns, Brute-Force Password Guessing, Text Encryption.
 * **Concepts:** `Nested Loops`, `Randomness (srand/rand)`, `String Manipulation`, `Security Logic`.
-* **Status:** [![Completed](./02_Patterns_Randomness_Security)
+* **Status:** [✅ Completed](./02_Patterns_Randomness_Security)
 
 ### 3. Set 3: Array Algorithms & Keys Generation (Problems 21-30)
 Simulating random behavior, array filling, and generating secure keys.
 * **Key Problems:** Random Number Generator, Serial Key System, Array Filling, Prime Copying.
 * **Concepts:** `Arrays`, `Randomness`, `Linear Search`, `Aggregation`.
-* **Status:** [![Completed](./03_Array_Algorithms_And_Keys)
+* **Status:** [✅ Completed](./03_Array_Algorithms_And_Keys)
 
 ### 4. Set 4: Array Algorithms & Manipulation (Problems 31-40)
 *(Upcoming)* Advanced operations on arrays (shuffling, sorting, copying).
