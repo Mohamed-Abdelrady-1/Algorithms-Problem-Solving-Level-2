@@ -2,6 +2,12 @@
 
 **MyLib** is a modular, reusable C++ library designed to simplify common programming tasks. It encapsulates logic for input validation, mathematical algorithms, string manipulation, and console management into a clean namespace.
 
+## Learning Purpose
+
+This library is built as an educational project to practice core C++ concepts, 
+such as functions, namespaces, enums, basic algorithms, and clean code organization.
+
+
 ## Features
 
 ### 1. Input Validation Utils
@@ -35,7 +41,7 @@ Optimized mathematical functions relying on pure arithmetic operations:
 
 ### 5. Console Screen Utils
 
-- **`Clear_Screen()`**: Clears the console output (Cross-platform compatible logic).
+- **`Clear_Screen()`**: Works on most modern terminals using ANSI escape codes.
 
 ## How to Use
 
@@ -62,3 +68,4 @@ Optimized mathematical functions relying on pure arithmetic operations:
     return 0;
    }
    ```
+
