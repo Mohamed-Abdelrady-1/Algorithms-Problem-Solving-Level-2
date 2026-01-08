@@ -29,10 +29,11 @@ Simulating random behavior, array filling, and generating secure keys.
 * **Concepts:** `Arrays`, `Randomness`, `Linear Search`, `Aggregation`.
 * **Status:** [✅ Completed](./03_Array_Algorithms_And_Keys)
 
-### 4. Set 4: Array Algorithms & Manipulation (Problems 31-40)
-*(Upcoming)* Advanced operations on arrays (shuffling, sorting, copying).
-* **Key Problems:** Array Shuffle, Copy distinct numbers, Palindrome Array.
-* **Status:** ⏳ In Progress
+### 4. Set 4: Array Manipulation & Search (Problems 31-40)
+Mastering array searching, shuffling, and simulating dynamic array behavior.
+* **Key Problems:** Shuffle Array, Linear Search, Copy Distinct, Dynamic Entry Simulation.
+* **Concepts:** `Linear Search`, `Swapping`, `Dynamic Array Logic`, `Distinct Filtering`.
+* **Status:** [✅ Completed](./04_Array_Algorithms_And_Manipulation)
 
 ### 5. Set 5: Projects & Complex Systems (Problems 41-50)
 *(Upcoming)* The final capstone projects will combine all learned concepts.
