@@ -44,9 +44,7 @@ namespace MyLib
 
 	#pragma endregion
 
-	// =============================================================
-	//                      String_Utils
-	// =============================================================
+	// String_Utils
 	#pragma region String_Utils
 
 	// Generates a random word of a specific length and character type.
@@ -55,6 +53,14 @@ namespace MyLib
 	// Generates a generic key based on segments and segment length.
 	// Example: Generate_Key(3, 4) -> AAAA-BBBB-CCCC
 	std::string Generate_Key(short Number_Of_Segments, short SegmentLength);
+
+	#pragma endregion
+
+	// Array_Utils
+	#pragma region Array_Utils
+
+	int Find_Number_Position(int Arr[100], int Arr_Length, int Number_Check);
+	bool Is_Number_In_Array(int Arr[100], int Arr_Length, int Number_Check);
 
 	#pragma endregion
 }

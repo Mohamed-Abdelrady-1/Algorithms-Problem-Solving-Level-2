@@ -221,4 +221,30 @@ namespace MyLib
     }
 
     #pragma endregion
+
+    // =============================================================
+    //                          Array_Utils
+    // =============================================================
+    #pragma region Array_Utils
+
+    // Returns the index of the number if found, otherwise returns -1
+    int Find_Number_Position(int Arr[100], int Arr_Length, int Number_Check)
+    {
+        for (int i = 0; i < Arr_Length; i++)
+        {
+            if (Number_Check == Arr[i])
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // Returns true if number exists in array, false otherwise
+    bool Is_Number_In_Array(int Arr[100], int Arr_Length, int Number_Check)
+    {
+        return (Find_Number_Position(Arr, Arr_Length, Number_Check) != -1);
+    }
+
+    #pragma endregion
 }
