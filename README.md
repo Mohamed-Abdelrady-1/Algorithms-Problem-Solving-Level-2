@@ -48,7 +48,7 @@ Mastering array searching, shuffling, and simulating dynamic array behavior.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** C++
 * **IDE:** Visual Studio
 * **Architecture:** Header Files (`.h`), Namespaces, Source Files (`.cpp`).
