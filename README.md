@@ -38,7 +38,9 @@ Mastering array searching, shuffling, and simulating dynamic array behavior.
 ### 5. Set 5: Projects & Complex Systems (Problems 41-50)
 *(Upcoming)* The final capstone projects will combine all learned concepts.
 * **Key Problems:** MySqrt, MyCeil, Dynamic Array Operations.
-* **Status:** ⏳ In Progress
+* **Status:** [![In Progress](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)](./)
+
+---
 
 ---
 ## 🛠️ Tech Stack
